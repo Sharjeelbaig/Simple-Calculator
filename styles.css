@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+.operationalInput {
+  height: 15px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+.numberBtn {
+  color: white;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 10px;
+}
+.elementsRow button {
+  display: inline;
+}
+.zeroBtn {
+  display: block;
+  background-color: red;
+}
+.operationsDiv {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.optionBtn {
+  background-color: rosybrown;
+}

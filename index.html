@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  
+</head>
+<body>
+    <h1 id="resultContainer">
+
+    </h1>
+    <div>
+    <input class="operationalInput" type="text" value="" id="operationalInput" />
+    <button class="numberBtn optionBtn" onclick="del()">Del</button>
+    <button class="numberBtn optionBtn" onclick="clearFunction()">Cleauur</button>
+    </div>
+    <div class="elementsRow">
+<button class="numberBtn" onclick="push(1)">1</button>
+<button class="numberBtn" onclick="push(2)">2</button>
+<button class="numberBtn" onclick="push(3)">3</button>
+</div>
+<div class="elementsRow">
+    <button class="numberBtn" onclick="push(4)">4</button>
+    <button class="numberBtn" onclick="push(5)">5</button>
+    <button class="numberBtn" onclick="push(6)">6</button>
+    </div>
+    <div class="elementsRow">
+        <button class="numberBtn" onclick="push(7)">7</button>
+        <button class="numberBtn" onclick="push(8)">8</button>
+        <button class="numberBtn" onclick="push(9)">9</button>
+        </div>
+        <div style="text-align: center;">
+            <center>
+        <button class="numberBtn zeroBtn" onclick="push(0)">0</button>
+</center>
+        </div>
+<br />
+<br />
+        <div class="elementsRow operationsDiv">
+            <button class="numberBtn operator" onclick="push('+')">+</button>
+            <button class="numberBtn operator" onclick="push('*')">*</button>
+            <button class="numberBtn operator" onclick="push('/')">÷</button>
+        </div>
+    <script src="./logics.js"></script>
+</body>
+</html>
